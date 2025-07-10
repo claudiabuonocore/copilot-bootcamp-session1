@@ -21,7 +21,7 @@ Let's update the backend unit tests for the delete api created in the previous l
 
 1. When prompted allow Copilot to fix the unit test. Verify the updates to the unit test and run them again.
 
-1. If prompted, continue to update the frontend functionlity & associated frontend unit tests as well. Make sure to run them and verify they all pass.
+1. If prompted, continue to update the backend functionlity & associated backend unit tests as well. Make sure to run them and verify they all pass.
 
 1. Keep the changes that copilot implemented.
 

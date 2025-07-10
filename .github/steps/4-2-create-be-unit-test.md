@@ -12,12 +12,12 @@ Let's add the backend unit tests for the delete api created in the previous less
    - For example, you might say: _"Add backend unit tests for the delete endpoint"_.
    - The exact wording is up to you—just make sure your intent is clear!
 
-1. Copilot will analyze your codebase and add unit tests for the delete endpoint in packages/backend/__tests__/app.test.js.
+1. Copilot will analyze your codebase and add unit tests for the delete endpoint in packages/backend/\__tests\__/app.test.js.
 
 1. When Copilot finishes making the changes, review what was modified:
    - In the backend (`packages/backend/__tests__/app.test.js`), you should see unit tests added for delete endpoint
 
-1. When prompted by Copilot, run the frontend tests to make sure they all pass. If you see any errors ask Copilot to fix the errors.
+1. When prompted by Copilot, run the backend tests to make sure they all pass. If you see any errors ask Copilot to fix the errors.
 
 1. Keep the changes that copilot implemented.
 
