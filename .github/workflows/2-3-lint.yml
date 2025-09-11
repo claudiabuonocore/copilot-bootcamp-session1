@@ -3,7 +3,7 @@ name: Step 2-3 # Verify Linting Setup
 on:
   push:
     branches:
-      - feature/intro
+      - main
   workflow_dispatch:
 
 permissions:

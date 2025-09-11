@@ -3,7 +3,7 @@ name: Step 2-1 # Verify Title Change
 on:
   push:
     branches:
-      - feature/intro
+      - main
   workflow_dispatch:
 
 permissions:
