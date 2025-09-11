@@ -1,6 +1,6 @@
 ## Review
 
-_Congratulations, you've completed session 2 of the Copilot Bootcamp tutorial and learned a lot about GitHub Copilot!_
+_Congratulations, you've completed session 1 of the Copilot Bootcamp tutorial and learned a lot about GitHub Copilot!_
 
 <img src="https://octodex.github.com/images/jetpacktocat.png" alt=celebrate width=200 align=right>
 
@@ -14,8 +14,8 @@ Here's a recap of your accomplishments:
 
 ### What's next?
 
-- Session 3
-  - Instructions files and documentation
+- Session 2
+  - Context files and documentation
 - Continue working on this project
   - Use Copilot to add filtering functionality for the items list
   - Implement item editing capabilities
@@ -39,4 +39,4 @@ Here's a recap of your accomplishments:
 - **Switch between AI models**: [GitHub Copilot with Different Models](https://docs.github.com/en/copilot/using-github-copilot/copilot-chat/using-github-copilot-chat#selecting-a-different-model)
 - **Complete documentation**: [GitHub Copilot Documentation](https://docs.github.com/en/copilot)
 
-Congratulations on completing the Slalom Copilot Bootcamp, and thank you for participating! We hope you've gained valuable insights into how GitHub Copilot can enhance your development workflow and productivity.
+Congratulations on completing Session 1 of the AI Coding Assistant Enablement Bootcamp for the SE capability, and thank you for participating! We hope you've gained valuable insights into how GitHub Copilot can enhance your development workflow and productivity.
