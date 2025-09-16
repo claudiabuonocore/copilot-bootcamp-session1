@@ -1,4 +1,4 @@
-name: Step 2-0 # Start Exercise
+name: Step 1-0 # Start Exercise
 
 on:
   push:
@@ -12,7 +12,7 @@ permissions:
   issues: write
 
 env:
-  STEP_1_FILE: ".github/steps/2-1-preparing.md"
+  STEP_1_FILE: ".github/steps/1-1-preparing.md"
 
 jobs:
   start_exercise:
@@ -73,8 +73,8 @@ jobs:
             # Extract the workflow name from the file
             workflow_name=$(grep "^name:" "$workflow_file" | head -1 | sed 's/name: *//' | sed 's/ *#.*//')
 
-            # Skip Step 2-0 (current workflow) to avoid disabling itself
-            if [[ "$workflow_name" != "Step 2-0" ]]; then
+            # Skip Step 1-0 (current workflow) to avoid disabling itself
+            if [[ "$workflow_name" != "Step 1-0" ]]; then
               echo "Disabling workflow: $workflow_name"
               gh workflow disable "$workflow_name" || echo "Failed to disable $workflow_name or it's already disabled"
             fi
@@ -82,6 +82,6 @@ jobs:
 
       - name: Enable next workflow
         run: |
-          gh workflow enable "Step 2-1"
+          gh workflow enable "Step 1-1"
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
