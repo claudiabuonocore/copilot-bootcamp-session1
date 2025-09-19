@@ -34,7 +34,7 @@ Let's add the ability to delete items from our application. This will require ch
 
 1. Keep the changes that copilot implemented.
 
-1. Commit and push to the `main` branch.
+1. Commit and push to the `feature/intro` branch.
 
 ### Success Criteria
 
@@ -44,6 +44,7 @@ To complete this exercise successfully:
 - Clicking a delete button should remove the item from both the UI and the database
 
 If you encounter any issues, you can:
+- Double-check that the changes were pushed to the branch `feature/intro`
 - Ask Copilot to fix specific problems
 - Check the developer console for any errors
 - Verify that the DELETE endpoint is properly implemented in the backend
