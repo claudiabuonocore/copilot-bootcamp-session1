@@ -3,7 +3,7 @@ name: Step 1-2 # Verify Delete Functionality
 on:
   push:
     branches:
-      - main
+      - feature/intro
   workflow_dispatch:
 
 permissions:
@@ -134,7 +134,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Disable current workflow and enable next one
+      - name: Disable current workflow
         run: |
           gh workflow disable "Step 1-2"
         env:

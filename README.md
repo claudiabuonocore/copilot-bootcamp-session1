@@ -1,4 +1,4 @@
-# GitHub Copilot Bootcamp: Agent Mode Basics
+# AI Coding Assistant Enablement Bootcamp: Session 1
 
 _Learn how to use GitHub Copilot's Agent mode to handle complex, multi-step coding tasks_
 
