@@ -54,7 +54,7 @@ Having a consistent development environment ensures all bootcamp participants ha
 
 Now, let's use GitHub Copilot's Agent Mode to change the application title:
 
-:pencil2: Create a new branch called `feature/intro`. :pencil2:
+1. :pencil2: Create a new branch called `feature/intro`. :pencil2:
 
 1. In VS Code, open Github Copilot.
 
