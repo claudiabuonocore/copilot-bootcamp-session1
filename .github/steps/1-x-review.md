@@ -14,7 +14,7 @@ Here's a recap of your accomplishments:
 ### What's next?
 
 - Session 2
-  - Context files and documentation
+  - Creating Context and Building with Context
 - Continue working on this project
   - Use Copilot to add filtering functionality for the items list
   - Implement item editing capabilities
